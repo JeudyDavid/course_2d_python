@@ -34,32 +34,16 @@ while 1==1:
           time.sleep(SPEED)
           # Operation: ordinate must receive the counter
           c = c - 1
-          # conditions: if counter equals 0: else counter minus    
+          
           o[0]-=1
-          # for o in obs:
-          #   if o[0] == -1:
-          #     score+=10
-          #     print(score)
-          #     if score == 50:
-          #       SPEED = SPEED * 0,50
-          # # choix = input("pour naviguez vers la gauche entrez g et pour la droite entrez d:").lower()
-          # if choix == "g":
-          #   user[1]-=1
-          # if user[1] == -1:
-          #   user[1] = 6
-          #   print(user)
-          # if choix == "d":
-          #   user[1]+=1
-          #   if user[1] == 7:
-          #     user[1] = 0
-          #   print(user)
+          # obstacle position 
           valeur = random.randint(-1, 1)
           user[1]-=valeur
           if user[1] == -1:
             user[1] = 6
           if user[1] == 7:
             user[1] = 0
-          # o[0]=c
+          # position aleatoire generer par python
           print(f"position aleatoire: {user}")
           print(obs)
           
