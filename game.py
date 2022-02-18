@@ -59,7 +59,4 @@ while 1==1:
             os.system("python3 main.py")
             exit()
           # print(c)
-  
-        # end of while
 
-    # Rules of speed, inside for loop
